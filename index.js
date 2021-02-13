@@ -31,3 +31,28 @@
 
 
 }
+
+
+
+{///////////////////Data Types on JS
+    console.log("===================3번===================");
+    //첫번째 사용은 const로 let은 진짜 필요할때만
+    //String
+    const what  = "Nicolas";
+
+    console.log(what);
+
+    //Boolean
+    const wat = false;
+
+    //Number
+    const watt = 777;
+
+    //Float
+    const bj = 55.1;
+    
+
+
+
+
+}
