@@ -56,3 +56,29 @@
 
 
 }
+
+{///////////////////Organizing Data with Arrays 
+    console.log("===================4번===================");
+
+    
+
+        const monday = "Mon";
+        const tue = "Tue";
+        const wed = "Wed";
+        const thu = "Thu";
+        const fri = "Fri";
+
+         console.log (monday,tue,wed,thu,fri);
+
+
+         const daysOfWeek = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]; // camelCase 첫 글자는 소문자로 이어지는 부분은 대문자로
+         console.log(daysOfWeek);
+         console.log(daysOfWeek[2]);
+
+        
+
+         const someThing = "something";
+         const whatEver=["Mon","Tue","Wed",54,true,someThing];
+        console.log(whatEver);
+
+}
