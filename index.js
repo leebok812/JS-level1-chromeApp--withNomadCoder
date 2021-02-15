@@ -82,3 +82,35 @@
         console.log(whatEver);
 
 }
+
+
+{///////////////////Organizing Data with Objects 
+    console.log("===================5번===================");
+
+
+    const nicoInfo = {
+    
+        name:"Nico",
+        age:33,
+        gender:"male",
+        isHandsome:true,
+        favMovies: ["Alongthe gods","LOTR","Oldboy"],
+        favFood: [{name:"Kimchi",fatty:false},{name:"Cheese burger", fatty:true}]
+    
+    }
+
+    console.log(nicoInfo);
+    
+    console.log(nicoInfo.gender); // 본래의 값
+    
+    nicoInfo.gender = "female";
+    
+    console.log(nicoInfo.gender); // female로 바꾼 후 교체값
+
+    console.log(nicoInfo.favFood[0].fatty); //  [] 대괄호안에  첫번째중괄호의 fatty 값 
+
+
+
+
+    
+}
