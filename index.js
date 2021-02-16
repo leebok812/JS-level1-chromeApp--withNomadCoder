@@ -114,3 +114,17 @@
 
     
 }
+
+
+{///////////////////Your first JS Function 
+
+    console.log("===================5번===================");
+
+
+        function sayHello(potato,chicken){ // 여기서 potato와 chcicken는 argument(인자)- 이름을아무거나지음 name,age 가능
+            console.log('Hello!',potato,"you have",chicken,"years of age.");
+        }
+
+        sayHello("Nicolas",15); //Nicolas = potato | chicken = 15
+
+}
