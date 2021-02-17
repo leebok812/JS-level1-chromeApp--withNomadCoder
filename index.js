@@ -128,3 +128,81 @@
         sayHello("Nicolas",15); //Nicolas = potato | chicken = 15
 
 }
+
+
+{///////////////////More Function Fun 
+    console.log("===================5번===================");
+
+    // //첫번째 표현법
+    // function sayHello(name,age){
+    //     console.log("Hello"+name+"you are"+ age+"years old"); //자바스크립트에서는"", '' 둘다스트링임
+    // }
+
+    //두번째 표현법
+    function sayHello(name, age){
+        console.log(`Hello ${name} you are ${age} years old`); //쌍따옴표, 홑따옴표가 아니라 백틱임
+    }
+
+    sayHello("Nicolas",15);
+
+    {
+
+        function sayHello(name,age){
+            return `Hello ${name} you are ${age} years old`;
+
+        }
+
+        const greetNicolas = sayHello("Nicolas",14)// sayHello function값을 const greetNicolas에 넣어주고 
+
+        console.log(greetNicolas); // 여기서출력!
+
+
+
+    }
+
+
+
+        {
+
+
+            const calculator ={
+
+                plus : function(a,b){
+                    return a+b;
+                },
+                minus : function(a,b){
+                    return a-b;
+                },
+                multiplication: function(a,b){
+                    return a*b;
+                },
+                division : function(a,b){
+                    return a/b;
+                },
+                squareRoot : function(a,b){
+                    return a**b;
+                }
+
+
+            }
+                const plus = calculator.plus(5,5)
+                console.log(plus);
+               
+                const minus = calculator.minus(10,2)
+                console.log(minus);
+                
+                const multiplication = calculator.multiplication(10,10)
+                console.log(multiplication);
+                
+                const division = calculator.division(10,2)
+                console.log(division);
+                
+                const squareRoot = calculator.squareRoot(5,2)
+                console.log(squareRoot);
+
+
+        }
+
+
+
+}
