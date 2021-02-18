@@ -206,3 +206,16 @@
 
 
 }
+
+
+{///////////////////JS DOM Functions
+    console.log("===================6번===================");
+
+
+    const title = document.getElementById("title");
+
+    title.innerHTML ="Hi! From JS";
+
+    console.log(title);
+
+}
