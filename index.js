@@ -219,3 +219,25 @@
     console.log(title);
 
 }
+
+
+{///////////////////Modifying the DOM with JS   
+
+    
+
+
+    const title = document.querySelector("#title");
+
+    title.innerHTML ="Hi! From JS";
+
+
+    titlte.style.color="red";
+
+    document.title ="I own you now";
+
+
+
+
+
+
+}
