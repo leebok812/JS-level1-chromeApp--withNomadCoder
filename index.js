@@ -223,7 +223,7 @@
 
 {///////////////////Modifying the DOM with JS   
 
-    
+     console.log("===================7번===================");
 
 
     const title = document.querySelector("#title");
@@ -231,13 +231,36 @@
     title.innerHTML ="Hi! From JS";
 
 
-    titlte.style.color="red";
+    title.style.color="red";
 
     document.title ="I own you now";
 
 
 
 
+
+
+}
+
+{///////////////////Events and event handlers
+    console.log("===================8번===================");
+
+
+        const title = document.querySelector('#title');
+
+    function handleResize(event){
+            console.log(event); // 이벤트가 발생할때마다 console에 출력 
+    }
+
+    function handleClick(){
+        title.style.color ="blue";
+    }
+
+
+       window.addEventListener("resize", handleResize); // 이벤트가 발생할때 호출
+       // window.addEventListener("resize", handleResize()); // 바로 호출
+
+    title.addEventListener("click",handleClick);
 
 
 }
