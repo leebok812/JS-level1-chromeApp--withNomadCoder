@@ -264,3 +264,71 @@
 
 
 }
+
+{///////////////////If, else, and, or
+
+    console.log("===================9번===================");
+
+            {
+    if("10" === 10){
+        console.log("hi");
+    }else if("10" === "10"){
+        console.log("lalala");
+    }else{
+        console.log("ho");
+    }
+            }
+
+            {
+    if(20 > 5 && "nico" ==="nico"){
+        console.log("yes");
+    }else {
+        console.log("no")
+    }
+
+
+
+
+            }
+            
+
+            {
+                if(20 > 5 || "nico" ==="mico"){
+                    console.log("yes");
+                }else {
+                    console.log("no")
+                }
+            
+            
+            
+            
+                        }
+
+
+                        {
+
+                            const age = prompt("How old are you"); // prompt 는 오래된 javascript 문법
+
+                            if(age >= 18 && age <= 21){
+                                console.log('you can drink but you should not');
+                            }else if( age > 21){
+                                console.log("go ahead");
+                            }
+                            
+                            else{
+                                console.log('too  young');
+                            }
+
+
+
+                        }
+
+
+
+
+
+
+
+
+
+}
