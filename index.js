@@ -332,3 +332,48 @@
 
 
 }
+
+
+{///////////////////DOM - If else - Function practice
+    console.log("===================10번===================");
+
+
+    // javascript dom event mdn
+    const ccc = document.querySelector("#ccc");
+
+    const BASE_COLOR="red";
+    const OTHER_COLOR="blue";
+
+    function handleClick() {
+      const currentColor = ccc.style.color;
+        if(currentColor === BASE_COLOR){
+            ccc.style.color = OTHER_COLOR;
+        }else{
+            ccc.style.color = BASE_COLOR;
+        }
+    }
+    
+    function init(){
+        
+        ccc.style.color = BASE_COLOR;
+        
+    }
+    
+    ccc.addEventListener("click",handleClick);
+    init();
+
+
+    function handleOffline(){ // 와이파이꺼지면출력
+        console.log("Bye Bye");
+    }
+
+    function handleOnline(){ 
+        console.log ("Welcome back")
+    
+    }
+
+
+    window.addEventListener("offline",handleOffline);
+    window.addEventListener("online",handleOnline);
+
+}
