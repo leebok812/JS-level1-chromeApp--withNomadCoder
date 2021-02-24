@@ -377,3 +377,27 @@
     window.addEventListener("online",handleOnline);
 
 }
+
+{///////////////////DOM - If else - Function practice Two
+    console.log("===================11번===================");
+
+    const title = document.querySelector("#click");
+
+    const CLICKED_CLASS = "clicked";
+
+    function handleClick() {
+        title.classList.toggle(CLICKED_CLASS);
+        //togle이 밑에 구문의 기능을 함
+        // const hasClass = title.classList.contains(CLICKED_CLASS);
+        // if(hasClass) {
+        //     title.classList.remove(CLICKED_CLASS);
+        // }else{
+        //     title.classList.add(CLICKED_CLASS);
+        // }
+    }
+
+     function init() {
+         title.addEventListener("click", handleClick);
+     }
+     init();
+}
