@@ -19,3 +19,12 @@ h1{
 color:#7f9c8d;
 
 }
+
+.form,
+.greetings {
+    display: none;
+}
+
+.showing {
+    display: block;
+}

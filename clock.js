@@ -37,7 +37,11 @@
 
 {///////////////////Making a JS Clock part two
     console.log("===================13번===================");
+  
+
+
     
+
     const clockContainer = document.querySelector(".js-clock2");
     const clockTitle = clockContainer.querySelector("h1");
     
@@ -66,3 +70,5 @@
 
 
 }
+
+
