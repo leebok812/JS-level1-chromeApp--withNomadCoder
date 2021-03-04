@@ -3,8 +3,8 @@
     console.log("===================12번===================");
     
     
-    const clockContainer = document.querySelector(".js-clock1");
-    const clockTitle = clockContainer.querySelector("h1");
+    const clockContainer1 = document.querySelector(".js-clock1");
+    const clockTitle = clockContainer1.querySelector("h1");
     
     function getTime(){
     
@@ -42,8 +42,8 @@
 
     
 
-    const clockContainer = document.querySelector(".js-clock2");
-    const clockTitle = clockContainer.querySelector("h1");
+    const clockContainer2 = document.querySelector(".js-clock2");
+    const clockTitle = clockContainer2.querySelector("h2");
     
     function getTime(){
     
